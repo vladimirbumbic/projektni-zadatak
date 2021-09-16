@@ -94,14 +94,15 @@
   }
   .bottom-img {
     position: fixed;
-    left: 35%;
-    top: 46%;
+    transform: skewY(17deg);
+    left: 43%;
+    top: 54.5%;
     opacity: 0.8;
   }
   .top-img {
     position: fixed;
     bottom: 37%;
-    right: 43%;
+    right: 42%;
     opacity: 0.4;
   }
   .city {
