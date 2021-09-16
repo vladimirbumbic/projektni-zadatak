@@ -53,6 +53,7 @@
     display: flex;
     justify-content: center;
     margin-top: 9px;
+    font-size: 15px;
   }
 }
 
@@ -75,6 +76,7 @@
     color: $very-dark-desaturated-blue;
     font-weight: 700;
     margin: 5px;
+    text-align: center;
   }
 
   .text {
@@ -82,10 +84,6 @@
     color: $dark-grayish-blue;
     letter-spacing: 1.5px;
     text-align: center;
-  }
-  .move {
-    position: relative;
-    right: 6px;
   }
 }
 

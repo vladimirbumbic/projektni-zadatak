@@ -101,6 +101,7 @@ body {
   -ms-flex-pack: center;
   justify-content: center;
   margin-top: 9px;
+  font-size: 15px;
 }
 
 .bottom {
@@ -137,6 +138,7 @@ body {
   color: #2d3248;
   font-weight: 700;
   margin: 5px;
+  text-align: center;
 }
 
 .bottom .text {
@@ -144,11 +146,6 @@ body {
   color: #6a6f81;
   letter-spacing: 1.5px;
   text-align: center;
-}
-
-.bottom .move {
-  position: relative;
-  right: 6px;
 }
 
 @media only screen and (max-width: 375px) {
