@@ -44,6 +44,8 @@
   .age {
     color: $dark-grayish-blue;
     font-weight: 400;
+    position: relative;
+    left: 5px;
   }
 
   .city {
@@ -78,27 +80,33 @@
   .text {
     font-size: 10px;
     color: $dark-grayish-blue;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     text-align: center;
   }
   .move {
     position: relative;
-    right: 5px;
+    right: 6px;
   }
 }
 
 @media only screen and (max-width: 375px) {
   .top {
     width: 87%;
+    box-shadow: 1px 15px 100px -40px $very-dark-desaturated-blue;
   }
   .bottom-img {
     position: fixed;
     left: 35%;
     top: 46%;
+    opacity: 0.8;
   }
   .top-img {
     position: fixed;
     bottom: 37%;
     right: 43%;
+    opacity: 0.4;
+  }
+  .city {
+    font-size: 15px;
   }
 }
