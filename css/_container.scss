@@ -1,8 +1,8 @@
 .top-img {
   position: fixed;
   overflow: hidden;
-  bottom: 37%;
-  right: 50%;
+  bottom: 35.5%;
+  right: 51.5%;
 }
 .bottom-img {
   position: fixed;
@@ -19,7 +19,7 @@
   overflow: hidden;
   @include flex(column);
   z-index: 1;
-  box-shadow: 5px 10px 35px -20px $very-dark-desaturated-blue;
+  box-shadow: 10px 50px 100px -70px $very-dark-desaturated-blue;
 
   .middle {
     @include flex(column);
